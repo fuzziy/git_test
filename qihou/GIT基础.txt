@@ -1,0 +1,70 @@
+    在学习完本章之后，你应该能够配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。 本章也将向你演示了如何配置 Git 来忽略指定的文件和文件模式、如何迅速而简单地撤销错误操作、如何浏览你的项目的历史版本以及不同提交（commits）之间的差异、如何向你的远程仓库推送（push）以及如何从你的远程仓库拉取（pull）文件。
+
+1.获取 Git 仓库
+通常有两种获取 Git 项目仓库的方式：
+1). 将尚未进行版本控制的本地目录转换为 Git 仓库；
+2). 从其它服务器 克隆 一个已存在的 Git 仓库。
+两种方式都会在你的本地机器上得到一个工作就绪的 Git 仓库。
+
+
+
+======================================
+//查询github的IP地址
+https://github.com.ipaddress.com/
+======================================
+//查询状态
+git status
+
+//
+git add 文件名
+=======================================
+在github 创建Repository（仓库）
+1.自己创建的仓库。
+2.Fork别人的仓库：
+   首先需要自己新建一个私有仓库，并且不能重名。创建完成之后，最下方有个Import code 点击。然后输入要导入仓库地址，最后点击 Begin import ，关闭页面，导入完成后会收到邮件。
+=======================================
+解决git push时出现Failed to connect to github.com port 443: Timed out：
+
+1.找到hosts文件，修改hosts文件。
+window下的目录为C:\Windows\System32\drivers\etc
+hosts文件可以直接使用记事本打开。将github.com对应的行屏蔽即可。
+
+2.查询是否使用代理：
+git config --global http.proxy
+git config --global https.proxy
+或者
+env|grep -I proxy
+如果均无返回信息，则说明没有使用代理。
+
+3.取消代理设置：
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+或：
+ export http_proxy=""
+ export https_proxy=""
+ export HTTP_PROXY=""
+ export HTTPS_PROXY=""
+或者：
+$ unset http_proxy
+$ unset ftp_proxy
+$ unset all_proxy
+$ unset https_proxy
+$ unset no_proxy
+================================
+解决访问GitHub很慢的问题    （这个方法没起作用）
+第一步
+打开网址：https://github.com.ipaddress.com/
+在里面可以查看到github的具体IP。
+第二步
+在hosts文件中添加映射
+140.82.113.4 https://github.com
+hosts文件的路径，在window和Mac下可能会不一样，需要自己找一下！
+Mac 的 hosts 文件位置为： /etc/hosts
+Windows 的 hosts 文件位置为：C:\Windows\System32\drivers\etc\hosts
+第三步
+刷新DNS
+Mac下使用命令：dscacheutil -flushcache
+Window下使用命令：ipconfig /flushdns
+之后再去访问github试试。
+===================================
+
