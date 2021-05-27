@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>STM32F10X_Demo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>268</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1125</ColumnWidth1></Debug-Log>
+    <Select-Ambiguous-Definitions><ColumnWidth0>390</ColumnWidth0><ColumnWidth1>55</ColumnWidth1><ColumnWidth2>669</ColumnWidth2></Select-Ambiguous-Definitions><TerminalIO/><Find-in-Files><ColumnWidth0>497</ColumnWidth0><ColumnWidth1>55</ColumnWidth1><ColumnWidth2>502</ColumnWidth2><ColumnWidth3>223</ColumnWidth3></Find-in-Files><Find-All-References><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Find-All-References><Find-All-Declarations><ColumnWidth0>390</ColumnWidth0><ColumnWidth1>55</ColumnWidth1><ColumnWidth2>669</ColumnWidth2></Find-All-Declarations><PROJECT_GUI_CALL_GRAPH><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>File</item><item>Function</item><item>Line</item></col-names><col-widths><item>200</item><item>700</item><item>100</item></col-widths></PROJECT_GUI_CALL_GRAPH></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-28729-8781</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-13569-9065</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-11228-17706</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-19566-18038</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-28743-30634</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab><Tab><Identity>TabID-24517-17644</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>4</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6710-8785</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>STM32F10X_Demo</ExpandedNode><ExpandedNode>STM32F10X_Demo/APP</ExpandedNode><ExpandedNode>STM32F10X_Demo/BSP</ExpandedNode><ExpandedNode>STM32F10X_Demo/MODBUS1</ExpandedNode><ExpandedNode>STM32F10X_Demo/MODBUS1/Ports</ExpandedNode><ExpandedNode>STM32F10X_Demo/MODBUS2</ExpandedNode><ExpandedNode>STM32F10X_Demo/MODBUS2/Ports</ExpandedNode><ExpandedNode>STM32F10X_Demo/MODBUS2/Source</ExpandedNode><ExpandedNode>STM32F10X_Demo/Wrappers</ExpandedNode><ExpandedNode>STM32F10X_Demo/Wrappers/qihou.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS2\port\port2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\port\port.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>35</YPos2><SelStart2>1540</SelStart2><SelEnd2>1540</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\port\portevent.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>30</YPos2><SelStart2>740</SelStart2><SelEnd2>740</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\mb.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>143</YPos2><SelStart2>5472</SelStart2><SelEnd2>5472</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\include\mb.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>4290</SelStart2><SelEnd2>4290</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\include\mbproto.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>22</YPos2><SelStart2>1842</SelStart2><SelEnd2>1842</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\include\mbconfig.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>36</YPos2><SelStart2>2378</SelStart2><SelEnd2>2378</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\rtu\mbrtu.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>193</YPos2><SelStart2>7120</SelStart2><SelEnd2>7120</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Wrappers\QI HOU\qihou.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>377</YPos2><SelStart2>9722</SelStart2><SelEnd2>9722</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP\MY MODBUS\my_modbus.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>97</SelStart2><SelEnd2>97</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uC-CFG\app_cfg.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>76</YPos2><SelStart2>3692</SelStart2><SelEnd2>3692</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Wrappers\wrappers.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>298</SelStart2><SelEnd2>298</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Wrappers\wrappers.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>197</SelStart2><SelEnd2>197</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uC-CFG\includes.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>56</YPos2><SelStart2>2709</SelStart2><SelEnd2>2709</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP\bsp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>279</YPos2><SelStart2>19183</SelStart2><SelEnd2>19183</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uC-LIB\lib_def.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>159</YPos2><SelStart2>8272</SelStart2><SelEnd2>8272</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BLE\modbus\mb3.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>223</YPos2><SelStart2>6284</SelStart2><SelEnd2>6284</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\port\portserial.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>42</YPos2><SelStart2>1856</SelStart2><SelEnd2>1856</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP\RS485_1\rs485_1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>41</YPos2><SelStart2>1554</SelStart2><SelEnd2>1554</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\port\porttimer.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>2134</SelStart2><SelEnd2>2134</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP\MY MODBUS\my_modbus.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>1160</SelStart2><SelEnd2>1160</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MODBUS\modbus\include\mbport.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>101</YPos2><SelStart2>3096</SelStart2><SelEnd2>3096</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BSP\RS485_2\rs485_2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>102</YPos2><SelStart2>1281</SelStart2><SelEnd2>1281</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>57</YPos2><SelStart2>960</SelStart2><SelEnd2>960</SelEnd2></Tab><ActiveTab>23</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04EECDC8><key>iaridepm.enu1</key></Toolbar-04EECDC8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>515</Bottom><Right>359</Right><x>-2</x><y>-2</y><xscreen>381</xscreen><yscreen>364</yscreen><sizeHorzCX>248047</sizeHorzCX><sizeHorzCY>443362</sizeHorzCY><sizeVertCX>235026</sizeVertCX><sizeVertCY>629720</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>261</Bottom><Right>1538</Right><x>-2</x><y>-2</y><xscreen>1540</xscreen><yscreen>263</yscreen><sizeHorzCX>1002604</sizeHorzCX><sizeHorzCY>320341</sizeHorzCY><sizeVertCX>248047</sizeVertCX><sizeVertCY>443362</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
