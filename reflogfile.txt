@@ -1,0 +1,33 @@
+[33m4655dcb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mssh_link/main[m[33m)[m HEAD@{0}: commit: up
+[33m797220b[m HEAD@{1}: commit: djsfjasfjsdff
+[33m9eb0c94[m HEAD@{2}: commit: pc m
+[33m87d8cfc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{3}: pull: Fast-forward
+[33m9b8a477[m HEAD@{4}: pull: Fast-forward
+[33mb8f8b46[m HEAD@{5}: pull: Fast-forward
+[33mbfe7c59[m HEAD@{6}: commit: up pc
+[33m37b0d63[m HEAD@{7}: commit: update 15:50
+[33m72ce48a[m HEAD@{8}: pull: Fast-forward
+[33m2df6c4d[m HEAD@{9}: commit: update 15:45 2021-5-28
+[33mfbf0dc9[m HEAD@{10}: commit (merge): Merge branch 'main' of https://github.com/fuzziy/git_test
+[33mf497677[m HEAD@{11}: commit: pc up
+[33m773f1b4[m HEAD@{12}: commit: update 15:33 2021-5-28
+[33me3650af[m HEAD@{13}: commit: pc update 2021-5-28 15:29
+[33mb7bfcf3[m HEAD@{14}: commit: pc modify
+[33m541a9d0[m HEAD@{15}: pull: Fast-forward
+[33m4510c4d[m HEAD@{16}: commit: pc modify
+[33m504a5f3[m HEAD@{17}: commit: modify git
+[33mcdebc19[m HEAD@{18}: pull origin main: Fast-forward
+[33m5b54278[m HEAD@{19}: commit: MODIFY GIT
+[33m1050eb7[m HEAD@{20}: pull git@github.com:fuzziy/git_test.git: Fast-forward
+[33mdbe922c[m HEAD@{21}: commit: test modify
+[33m0adec91[m HEAD@{22}: pull git@github.com:fuzziy/git_test.git: Fast-forward
+[33m189c959[m HEAD@{23}: commit: move file
+[33mc8ef133[m HEAD@{24}: commit: test_ssh
+[33mbdc21a0[m HEAD@{25}: pull: Fast-forward
+[33m7c1216a[m HEAD@{26}: commit: ddd
+[33mbf58c1f[m HEAD@{27}: commit: git 基础
+[33m4638c84[m HEAD@{28}: commit: readme
+[33m8a37987[m HEAD@{29}: pull: Merge made by the 'recursive' strategy.
+[33m8cd7e1a[m HEAD@{30}: commit: initial project version
+[33m6c504be[m HEAD@{31}: commit: commit
+[33m3798a8d[m HEAD@{32}: clone: from https://github.com/fuzziy/git_test
