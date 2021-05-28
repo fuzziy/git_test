@@ -34,13 +34,14 @@ git clone https://github.com/fuzziy/git_test
 //查询github的IP地址
 https://github.com.ipaddress.com/
 ======================================
-//查询状态
-git status
+
+git status    //查询状态
+git status -s  //查询简洁的状态
 
 //
-git add 文件名   //将文件添加到暂存区。
-git add -A        //提交所有变化
-
+git add 文件名  //将文件添加到暂存区。
+git add -A        //将所有文件添加到暂存区。
+git commit -a  //
 git branch -a  //查询本地和远程所有分支
 （如果分支太多时，push/pull时需要指定分支）
 git push -u origin main
