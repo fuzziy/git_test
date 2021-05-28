@@ -1,4 +1,18 @@
-在学习完本章之后，你应该能够配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。 本章也将向你演示了如何配置 Git 来忽略指定的文件和文件模式、如何迅速而简单地撤销错误操作、如何浏览你的项目的历史版本以及不同提交（commits）之间的差异、如何向你的远程仓库推送（push）以及如何从你的远程仓库拉取（pull）文件。
+    在学习完本章之后，你应该能够配置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改。 本章也将向你演示了如何配置 Git 来忽略指定的文件和文件模式、如何迅速而简单地撤销错误操作、如何浏览你的项目的历史版本以及不同提交（commits）之间的差异、如何向你的远程仓库推送（push）以及如何从你的远程仓库拉取（pull）文件。
+（安装Windows版本Git：Git-2.31.1-64-bit）
+（使用GIT前需要关闭360安全卫生、360杀毒软件、腾讯管家、金山卫士等国产杀毒软件）
+（运行GIT BASH）
+（设置用户，是给你的电脑设置一个用户，等你上传的时候，告诉远程仓库是谁上传的而已。
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"）
+（进入你所要操作的本地文件夹：cd d/my_git_prj/git_test
+    用pwd 命令可以查询当前所处的文件夹）
+（cd .. ，退回上一级目录；
+    mkdir 文件夹名字， 只能新建文件夹；
+    touch 文件名， 只能新建文件；
+    rm 文件名， 删除文件；
+    rm -r 文件夹名字，删除文件夹；
+）
 
 1.获取 Git 仓库
 通常有两种获取 Git 项目仓库的方式：
@@ -6,8 +20,16 @@
 2). 从其它服务器 克隆 一个已存在的 Git 仓库。
 两种方式都会在你的本地机器上得到一个工作就绪的 Git 仓库。
 
-
-
+1). 将尚未进行版本控制的本地目录转换为 Git 仓库；
+如果你有一个尚未进行版本控制的项目目录，想要用 Git 来控制它，那么首先需要进入本地的该项目目录中。
+之后执行：git init
+该命令将创建一个名为 .git 的子目录，这个子目录含有你初始化的 Git 本地仓库中所有的必须文件，这些文件是Git 仓库的骨干。 但是，在这个时候，我们仅仅是做了一个初始化的操作，你的项目里的文件还没有被跟踪。
+接着可以通过 git add 命令来指定所需追踪的文件，然后执行 git commit进行初始提交，即将文件提交到本地库中。git push是将本地库中的最新信息发送给远程库。
+2）从其它服务器克隆 一个已存在的 Git 仓库。
+首先需要进入本地的用来保存项目文件的目录。
+git clone https://github.com/fuzziy/git_test
+默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来。
+本地将出现一个git_test的目录。
 ======================================
 //查询github的IP地址
 https://github.com.ipaddress.com/
@@ -16,7 +38,14 @@ https://github.com.ipaddress.com/
 git status
 
 //
-git add 文件名
+git add 文件名   //将文件添加到暂存区。
+git add -A        //提交所有变化
+
+git branch -a  //查询本地和远程所有分支
+（如果分支太多时，push/pull时需要指定分支）
+git push -u origin main
+git pull origin main
+
 =======================================
 在github 创建Repository（仓库）
 1.自己创建的仓库。
@@ -67,4 +96,83 @@ Mac下使用命令：dscacheutil -flushcache
 Window下使用命令：ipconfig /flushdns
 之后再去访问github试试。
 ===================================
+在管理Git项目上，需要建立远程仓库和本地仓库的连接，有两种方法：
+1）直接使用https url克隆到本地。
+2）使用SSH url克隆到本地。
+
+使用https url对初学者来说会比较方便，复制https url然后到git Bash里面直接用clone命令克隆到本地就好了，但是每次fetch和push代码都需要输入账号和密码，这也是https方式的麻烦之处。
+
+使用SSH url需要在使用之前先配置和添加好SSH key。每次fetch和push代码都不需要输入账号和密码，如果你想要每次都输入账号密码才能进行fetch和push也可以另外进行设置。
+===================================
+SSH keys配置方法
+
+（运行git bash）
+1）.检查你电脑上是否有SSH Key:
+~/.ssh 或者用~/.ssh ls
+如果电脑上有，就会显示bash: /c/Users/…/.ssh: Is a directory
+如果电脑上没有，那就显示bash: /c/Users/…/.ssh: No such file or directory
+
+2）.创建SSH Key:
+如果你电脑上没有,操作如下创建SSH。
+ssh-keygen -t rsa -C "你的邮箱"
+然后就会显示这两行：
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/16627/.ssh/id_rsa):
+直接回车，那么就会默认生成id_rsa和id_rsa.pub两个秘钥文件。
+这时候已经创建好.ssh这个文件夹了，会提示：
+Created directory ‘/c/Users/16627/.ssh’.
+紧接着又会问你：
+Enter passphrase (empty for no passphrase):
+就是让你输入密码，如果你设置了密码，那在你使用ssh传输文件的时候，你就要输入这个密码。为了避免麻烦，建议不用设置，直接回车。
+Enter same passphrase again:
+这就是让你再输入一次密码，就跟我们注册账号时候设置密码需要设置两次一样。如果上一步没设置密码，这里直接回车就可以了。到这里你的秘钥就设置好了，你会收到这段代码提示：
+Your identification has been saved in /c/Users/…/.ssh/id_rsa
+Your public key has been saved in /c/Users/…/.ssh/id_rsa.pub
+再使用~/.ssh检查一下。
+
+3）.添加SSH Key到GitHub。
+首先打开Github网页，登录后，在用户图标下选择“Settings”,
+左侧栏中点击“SSH and GPG keys”，然后在右上角 点击“New SSH key”,弹出界面，
+title随便给他起个名字就好。然后是key，获取key的方法是：
+从电脑中找到刚才创建SSH Key的.ssh文件夹。用记事本打开id_rsa.pub文件，全选其中的内容粘贴到网页的Key中。然后你就会收到建立成功的邮件了。
+
+4）测试一下该SSH key。
+ssh -T git@github.com
+然后会提示你：
+The authenticity of host ‘github.com (13.229.188.59)’ can’t be established.
+RSA key fingerprint is SHA256:nThbg6kXUp…
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+输入yes，回车。
+接下来就会提示你输入密码，如果上边设置ssh的时候，你没设置密码会提示你：
+Warning: Permanently added ‘github.com,192.30.255.112’ (RSA) to the list of known hosts.
+警告完了，如果你能看到如下提示，那你已经成功设置SSH密钥。
+Hi “用户名”! You’ve successfully authenticated, but GitHub does not provide shell access.
+（如果你看到 access denied，则表示拒绝访问，那么你就需要使用 https 去访问。）
+=================================
+查看远程仓库的简写名：
+git remote        //列出所有可以使用的远程仓库的简写。
+git remote -v    //列出所有可以使用的远程仓库的简写与其对应的 URL。
+git remote add <shortname> <url> //添加一个新的简写名，并指定其远程 Git 仓库的 URL。
+git remote remove <shortname>  //删除一个远程仓库 URL的简写名。
+-----------------------------------------------------
+git push 和git pull  //默认是使用https.
+
+如果要使用SSH，需要后缀加上SSH的连接地址：
+git push git@github.com:fuzziy/git_test.git
+git pull git@github.com:fuzziy/git_test.git
+
+添加一个SSH连接的简写名，这样方便以后PUSH和PULL。
+设置简写名SSH_link：
+git remote add SSH_link git@github.com:fuzziy/git_test.git
+git remote -v
+显示如下：
+SSH_link        git@github.com:fuzziy/git_test.git (fetch)
+SSH_link        git@github.com:fuzziy/git_test.git (push)
+origin  https://github.com/fuzziy/git_test (fetch)
+origin  https://github.com/fuzziy/git_test (push)
+
+如果SSH有设置简写名，我们就可以直接用简写名。以后可以用如下命令：
+git push SSH_link
+git pull SSH_link
+====================================
 
