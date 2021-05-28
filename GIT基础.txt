@@ -43,7 +43,11 @@ git add 文件名  //将文件添加到暂存区。
 git add -A        //将所有文件添加到暂存区。
 
 git commit -a  //将修改提交到本地库
+<<<<<<< HEAD
 git commit -a  -m 'update 15:39 2021-5-28' //将修改提交到本地库
+=======
+git commit -a  -m 'update 15:40 2021-5-28' //将修改提交到本地库
+>>>>>>> a519b8cc0c0a7e7457ca9efcd16bd41200874772
 
 git branch -a  //查询本地和远程所有分支
 （如果分支太多时，push/pull时需要指定分支）
