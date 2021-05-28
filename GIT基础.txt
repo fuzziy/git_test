@@ -179,4 +179,7 @@ origin  https://github.com/fuzziy/git_test (push)
 git push SSH_link
 git pull SSH_link
 ====================================
-
+Git bash窗口中出现无法打字了，而按回车却有反应。一番搜索之后，也算是找到了解决方案。输入以下命令。
+1、 reset 
+2、stty sane （保留之前的内容）
+===================================
