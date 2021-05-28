@@ -1,0 +1,222 @@
+[33mcommit 87d8cfcf457c1b64b1982c4e5752c5a2732b789a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 16:02:45 2021 +0800
+
+    Delete qihou/ST20-QH-HD5.1-v0.13 directory
+
+[33mcommit 9b8a4770f131e63316a3cde3183c2d1d472ec1e6[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:59:08 2021 +0800
+
+    Delete new_file.c
+
+[33mcommit b8f8b466cf8ad22788bdf20930eb8d8737191d8a[m[33m ([m[1;31mssh_link/main[m[33m)[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:56:26 2021 +0800
+
+    Delete new_file.c.bak
+
+[33mcommit bfe7c5925100d181acfe44764061d7405adbfc17[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:53:00 2021 +0800
+
+    up pc
+
+[33mcommit 37b0d63d644abb2f7bc1bbe2bd08ec223d010446[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:50:59 2021 +0800
+
+    update 15:50
+
+[33mcommit 72ce48ae577ce4d750cadd509153e3ec3e700414[m
+Merge: 7a267e3 66d13af
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:49:22 2021 +0800
+
+    Merge pull request #1 from fuzziy/fuzziy-patch-2
+    
+    Update new_file.c
+
+[33mcommit 66d13afb443549dcd3f4bad6fa088f7136f4a8ee[m[33m ([m[1;31mssh_link/fuzziy-patch-2[m[33m, [m[1;31morigin/fuzziy-patch-2[m[33m)[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:47:50 2021 +0800
+
+    Update new_file.c
+
+[33mcommit 7a267e3a50fa9e1a993d9e97f8daa58c69765322[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:46:18 2021 +0800
+
+    Create new_file.c
+
+[33mcommit 2df6c4d21972ef3f1de6d77a4ef880ea905d2fb6[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:43:53 2021 +0800
+
+    update 15:45 2021-5-28
+
+[33mcommit fbf0dc9fe42b5b93775a95be04217b3db530a91a[m
+Merge: f497677 a519b8c
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:41:26 2021 +0800
+
+    Merge branch 'main' of https://github.com/fuzziy/git_test
+
+[33mcommit f49767784c3e6eee64d86c08c28a9091be1d93f8[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:40:44 2021 +0800
+
+    pc up
+
+[33mcommit a519b8cc0c0a7e7457ca9efcd16bd41200874772[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:40:11 2021 +0800
+
+    Update GIT基础.txt
+    
+    update 15:40 2021-5-28
+
+[33mcommit 773f1b476957e6a32115cf5b661ab7a13234ec4c[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:35:02 2021 +0800
+
+    update 15:33 2021-5-28
+
+[33mcommit e3650afa95adfc9787c1437a075290a802073384[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:28:32 2021 +0800
+
+    pc update 2021-5-28 15:29
+
+[33mcommit b7bfcf37532813f8c21206dbb17c1ff4117c7f22[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 15:14:48 2021 +0800
+
+    pc modify
+
+[33mcommit 541a9d098f6609be65fe1e5a9712946fd5dd1fa0[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Fri May 28 15:12:02 2021 +0800
+
+    Update GIT基础.txt
+
+[33mcommit 4510c4dd3d1de3d46f6455e2bdefb29f127a2d50[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 14:55:44 2021 +0800
+
+    pc modify
+
+[33mcommit 504a5f319f56f0011145a17569ede22a14ced4af[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Fri May 28 14:27:26 2021 +0800
+
+    modify git
+
+[33mcommit cdebc193ff6a7c77b72bc1bbc9e6989d7fcd7410[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Thu May 27 16:48:15 2021 +0800
+
+    Update GIT基础.txt
+
+[33mcommit 5b54278b422f5bb3dbb030768e642bd1e1c4f722[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Thu May 27 15:30:55 2021 +0800
+
+    MODIFY GIT
+
+[33mcommit 1050eb71a0641f5833d17184aa9b98dee6234e8b[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Thu May 27 15:28:45 2021 +0800
+
+    Update GIT基础.txt
+
+[33mcommit dbe922c1d606fbef7fe3779188b0d28e1f9ddf93[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Thu May 27 15:26:33 2021 +0800
+
+    test modify
+
+[33mcommit 0adec91e4c4736b6bb2152a1c599a1929a708343[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Thu May 27 15:24:31 2021 +0800
+
+    Update GIT基础.txt
+
+[33mcommit 189c959632868fe8d9e69777d498c831050cac9c[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Thu May 27 14:38:13 2021 +0800
+
+    move file
+
+[33mcommit c8ef133bb4510a51dcedde1d819d4e6dcf179477[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Thu May 27 14:34:16 2021 +0800
+
+    test_ssh
+
+[33mcommit bdc21a0555500e67f9d6dc4660e7f9546f039a14[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Thu May 27 14:30:14 2021 +0800
+
+    Delete fkkk
+
+[33mcommit 7c1216ae1aa1dad57a816b880344eb8b393ca32d[m
+Author: fuzziy <fuzziy@163.com>
+Date:   Thu May 27 14:25:28 2021 +0800
+
+    ddd
+
+[33mcommit bf58c1fa3290ae10bce1086d6255b95b3360dbb6[m
+Author: Development Hardware <fuzziy@163.com>
+Date:   Thu May 27 11:11:13 2021 +0800
+
+    git 基础
+
+[33mcommit 4638c840ffe14b89a6f9dd4d6ece1fb17b401e53[m
+Author: Development Hardware <fuzziy@163.com>
+Date:   Thu May 27 11:03:29 2021 +0800
+
+    readme
+
+[33mcommit 8a379870083ff932e832afe1954adb1c1674719b[m
+Merge: 8cd7e1a 0c37bf2
+Author: Development Hardware <fuzziy@163.com>
+Date:   Thu May 27 10:59:47 2021 +0800
+
+    Merge branch 'main' of https://github.com/fuzziy/git_test
+
+[33mcommit 8cd7e1a63039398203669d7b75c73730885ddf08[m
+Author: Development Hardware <fuzziy@163.com>
+Date:   Thu May 27 10:42:05 2021 +0800
+
+    initial project version
+
+[33mcommit 0c37bf2478848197877cf8a8346f1dbfc85dd87e[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Thu May 27 10:27:54 2021 +0800
+
+    Create readme.txt
+
+[33mcommit 6c504be3630ee154ee308cd58e9aa49a50690f43[m
+Author: Development Hardware <fuzziy@163.com>
+Date:   Wed May 26 17:01:17 2021 +0800
+
+    commit
+
+[33mcommit 3798a8dafbe91fe64c54637c2fd129673f381009[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Wed May 26 16:33:02 2021 +0800
+
+    Update README.md
+
+[33mcommit ed7d273fbb961a97fdace1ad8fc9dc6f3c48c56b[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Wed May 26 16:32:41 2021 +0800
+
+    Update README.md
+
+[33mcommit 536c58d5e25952d985afa7dace44030f3d26f925[m
+Author: fuzziy <59923606+fuzziy@users.noreply.github.com>
+Date:   Wed May 26 16:32:03 2021 +0800
+
+    Initial commit
