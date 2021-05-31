@@ -190,5 +190,6 @@ git reflog //来查看引用日志.
 ---------------------------------------------------------------
 用命令行模式 先查看版本号: git reflog或者git log --pretty=oneline
 用命令行模式 恢复到某个版本号: git reset --hard <commit ID号>
-推送到远程github: git push -f -u origin master
+例如：git reset --hard HEAD@{1}
+推送到远程github: git push -f -u origin main
 ===================================
