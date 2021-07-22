@@ -28,12 +28,15 @@ git config --global user.email "email@example.com"）
 2）从其它服务器克隆 一个已存在的 Git 仓库。
 首先需要进入本地的用来保存项目文件的目录。
 git clone https://github.com/fuzziy/git_test
+git clone https://gitee.com/fuzziy/gitee_test.git
 默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来。
 本地将出现一个git_test的目录。
 ======================================
 //查询github的IP地址
 https://github.com.ipaddress.com/
 ======================================
+
+git config --list  //查询已有的配置信息
 
 git status    //查询状态
 git status -s  //查询简洁的状态
@@ -142,6 +145,7 @@ title随便给他起个名字就好。然后是key，获取key的方法是：
 
 4）测试一下该SSH key。
 ssh -T git@github.com
+ssh -T git@gitee.com
 然后会提示你：
 The authenticity of host ‘github.com (13.229.188.59)’ can’t be established.
 RSA key fingerprint is SHA256:nThbg6kXUp…
@@ -181,7 +185,7 @@ git pull SSH_link
 ====================================
 Git bash窗口中出现无法打字了，而按回车却有反应。一番搜索之后，也算是找到了解决方案。输入以下命令。
 1、 reset 
-2、stty sane （保留之前的内容）
+2、stty sane （可以保留之前的内容）
 ===================================
 git log  //要查看你知道其中添加了某个功能的提交，首先运行 git log 命令来定位该提交.
 git reflog //来查看引用日志.
@@ -191,5 +195,5 @@ git reflog //来查看引用日志.
 用命令行模式 先查看版本号: git reflog或者git log --pretty=oneline
 用命令行模式 恢复到某个版本号: git reset --hard <commit ID号>
 例如：git reset --hard HEAD@{1}
-推送到远程github: git push -f -u origin main
+推送到远程github: git push -f -u origin master
 ===================================
